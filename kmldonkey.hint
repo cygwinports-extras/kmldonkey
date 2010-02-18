@@ -1,0 +1,5 @@
+category: KDE Net
+requires: libgcc1 libkdecore5 libkmldonkey5 libQt3Support4 libQtCore4 libQtGui4 libstdc++6
+sdesc: "KDE MLDonkey user interface"
+ldesc: "KMLDonkey is a KDE user interface for MLDonkey cross-platform 
+peer-to-peer downloader."

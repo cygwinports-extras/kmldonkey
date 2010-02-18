@@ -1,0 +1,13 @@
+You don't really want "liblibkmldonkey", do you?
+
+--- origsrc/kmldonkey-2.0.2-kde4.3.3/libkmldonkey/CMakeLists.txt	2009-11-05 05:58:08.000000000 -0600
++++ src/kmldonkey-2.0.2-kde4.3.3/libkmldonkey/CMakeLists.txt	2010-02-17 20:01:23.344386000 -0600
+@@ -31,7 +31,7 @@ add_definitions(${QT_DEFINITIONS} ${KDE4
+ 
+ kde4_add_library(libkmldonkey SHARED ${libkmldonkey_LIB_SRCS})
+ target_link_libraries(libkmldonkey ${KDE4_KIO_LIBS} ${QT_QT3SUPPORT_LIBRARY})
+-set_target_properties(libkmldonkey PROPERTIES VERSION ${GENERIC_KMLDONKEY_VERSION} SOVERSION ${GENERIC_KMLDONKEY_SOVERSION})
++set_target_properties(libkmldonkey PROPERTIES OUTPUT_NAME "kmldonkey" VERSION ${GENERIC_KMLDONKEY_VERSION} SOVERSION ${GENERIC_KMLDONKEY_SOVERSION})
+ install(TARGETS libkmldonkey ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ install(FILES
