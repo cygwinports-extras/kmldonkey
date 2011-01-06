@@ -1,6 +1,0 @@
-category: KDE Net
-requires: libkmldonkey5 libkdecore5-devel libQt3Support4-devel libQtCore4-devel libQtGui4-devel libQtNetwork4-devel
-external-source: kmldonkey
-sdesc: "KDE MLDonkey library (development)"
-ldesc: "KMLDonkey is a KDE user interface for MLDonkey cross-platform 
-peer-to-peer downloader."
