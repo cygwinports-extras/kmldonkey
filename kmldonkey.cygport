@@ -1,0 +1,14 @@
+KDE4_EXTRAGEAR_VERSION=4.4.0
+inherit kde4
+
+NAME="kmldonkey"
+VERSION=2.0.2
+RELEASE=2
+CATEGORY="Net"
+SUMMARY="KDE MLDonkey user interface"
+DESCRIPTION="KMLDonkey is a KDE user interface for MLDonkey cross-platform
+peer-to-peer downloader."
+REQUIRES="mldonkey"
+HOMEPAGE="http://userbase.kde.org/KMLDonkey"
+SRC_URI="mirror://kde/stable/extragear/${P}-kde${KDE4_EXTRAGEAR_VERSION}.tar.bz2"
+

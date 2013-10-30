@@ -1,6 +1,0 @@
-category: KDE Net
-requires: kmldonkey libgcc1 libkdecore5 libplasma3 libQtCore4 libstdc++6
-external-source: kmldonkey
-sdesc: "KDE Plasma applet for MLDonkey"
-ldesc: "KMLDonkey is a KDE user interface for MLDonkey cross-platform 
-peer-to-peer downloader."
